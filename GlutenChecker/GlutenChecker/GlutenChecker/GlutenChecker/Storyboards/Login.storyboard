@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="H2H-wj-avq">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="o9q-d9-Idx">
+            <objects>
+                <viewController id="H2H-wj-avq" customClass="LoginViewController" customModule="GlutenChecker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wbS-hd-JUL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Shf-uF-GkX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OY9-eN-OfR">
+                                        <rect key="frame" x="55" y="48" width="281" height="175"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gluten Checker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFL-JK-fQD">
+                                                <rect key="frame" x="18" y="28" width="245" height="44"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="36"/>
+                                                <color key="textColor" name="tcWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" name="tcSeafoamGreen"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="265" id="aJ7-eY-0Tz"/>
+                                        </constraints>
+                                        <viewLayoutGuide key="safeArea" id="RQM-Y4-HWF"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eS1-Lq-t3h">
+                                        <rect key="frame" x="100" y="356" width="174" height="33"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="auf-Eh-ndg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="17"/>
+                                        <state key="normal" title="Sign Up or Log In">
+                                            <color key="titleColor" name="tcOffWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="eS1-Lq-t3h" firstAttribute="leading" secondItem="Shf-uF-GkX" secondAttribute="leading" constant="35" id="952-7H-2cb"/>
+                                    <constraint firstItem="OY9-eN-OfR" firstAttribute="leading" secondItem="Shf-uF-GkX" secondAttribute="leading" id="D9G-nO-Blh"/>
+                                    <constraint firstAttribute="trailing" secondItem="eS1-Lq-t3h" secondAttribute="trailing" constant="35" id="HUH-PV-2kI"/>
+                                    <constraint firstAttribute="bottom" secondItem="eS1-Lq-t3h" secondAttribute="bottom" constant="333" id="Nnl-0n-tHN"/>
+                                    <constraint firstAttribute="trailing" secondItem="OY9-eN-OfR" secondAttribute="trailing" id="O4A-so-O1l"/>
+                                    <constraint firstItem="eS1-Lq-t3h" firstAttribute="top" secondItem="OY9-eN-OfR" secondAttribute="bottom" constant="25" id="Uzp-wM-aPY"/>
+                                    <constraint firstItem="OY9-eN-OfR" firstAttribute="top" secondItem="Shf-uF-GkX" secondAttribute="top" id="W9q-hw-ElJ"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="AZr-YI-436"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="tQa-Wl-7fc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TLt-Jx-hGa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48.799999999999997" y="-125.4872563718141"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="tcOffWhite">
+            <color red="0.96899998190000003" green="0.96899998190000003" blue="0.96899998190000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="tcSeafoamGreen">
+            <color red="0.34900000689999999" green="0.85500001910000001" blue="0.64300000670000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="tcWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
