@@ -1,5 +1,5 @@
 # Gluten-Checker-Main
-  ​verify gluten free foods by scanning barcode label
+  ​verify gluten free foods by scanning upc barcode label and comparing to nutrition database and incredients list 
 
 ## Audience
 
@@ -7,7 +7,7 @@
 
 ## Experience
 
-​A user opens the app to a sign-up page
+​User should experience accurate scans that let you know if your food is safe to eat. 
 
 #Technical
 
